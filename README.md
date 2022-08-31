@@ -1,14 +1,15 @@
-# mobile-firs-project1
+# Boostrap Project
 
 > Description the project.
-- setting up a repository from gitHub for my portfolio.
+- setting up a repository from gitHub for Boostrap project.
 - create HTML files
-- Create CSS files
 - Set up Linters
+- use bootstrap CDN link
 
 ## Built With
 
-- HTML/Bootstrap
+- HTML/CSS
+- bootsrap
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
@@ -18,15 +19,15 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-- https://github.com/MohamedHNoor/mobile-firs-project1
+- https://github.com/MohamedHNoor/Bootstrap-Project.git
 
 ## Authors
 
 👤 **Author1**
+  @MohamedHNoor
 
-- GitHub: [@githubhandle](https://github.com/MohamedHNoor)
-- Twitter: [@twitterhandle](https://twitter.com/MohamedHNoor)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamedhnoor/)
+  **Author2**
+  @AbayomiOlaoye
 
 
 ## 🤝 Contributing
