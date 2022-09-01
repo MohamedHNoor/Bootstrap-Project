@@ -1,7 +1,12 @@
 body {
-  background: #191765;
+  background-image: url(./images/header_bg.svg), url(./images/use-bg2.svg);
+  background-position: top 100px left 20px, top 460px right 50px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: #191765;
   color: #fff;
 }
+
 .theme{
   font-size: 300%;
   font-weight: bold;
@@ -18,3 +23,4 @@ body {
 .pro .one {
   margin-top: 2rem;
 }
+
