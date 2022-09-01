@@ -211,60 +211,66 @@
     </div>
   </section>
   <!-- Contact Section -->
-  <section id="contact-section" class="center-align">
-    <div class="container">
-      <div class="contact-form">
-        <h2 class="recent-works robo-head center-align"><span class="alt-del">Contact us</span> <span class="hide">Let's chat</span></h2>
-        <p class="text">
+  <section id="contact-section" class="text-light mt-5  justify-content-center text-align-center">
+    <div class="container w-50">
+      <div class="contact-form text-center">
+        <h2 class="recent-works robo-head center-align">Let's chat</h2>
+        <p class="lead">
           If you have an application you are interested in developing, a feature 
           that you need built or a project that needs coding. 
           I'd love to help with it.
         </p>
-        <form class="form" action="https://formspree.io/f/mrgjojra" method="post">
-          <input type="text" class="full alt-del" name="fullname" id="fullname" placeholder="Full Name" maxlength="30" required><br>
-            <!-- Bigger screen form  -->
-          <div class="hide">
-              <input type="text" class="full" name="fname" id="fname" placeholder="First Name" maxlength="30" required>
-              <input type="text" class="full" name="lname" id="lname" placeholder="Last Name" maxlength="30" required>
+      </div>
+        <form action="https://formspree.io/f/mrgjojra" method="post">
+          <div class="form-group row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name">
             </div>
-          <input type="email" class="full" name="email" id="email" placeholder="youremail@example.com" required><br>
-          <textarea id="textarea" class="full" name="message" cols="30" rows="10" placeholder="Enter text here" maxlength="500" required></textarea><br>
-          <button type="submit" class="view robo-head"><span class="alt-del">Get in touch</span> <span class="hide">Send</span></button>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name">
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <input type="email" class="full form-control" name="email" id="email" placeholder="youremail@example.com" required><br>
+          </div>
+          <div class="form-group">
+            <textarea id="textarea" class="full form-control" name="message" cols="30" rows="5" placeholder="Enter text here" maxlength="500" required></textarea><br>
+          </div>
+          <button type="submit" class="btn btn-lg d-block mx-auto">Send</button>
           <div class="error-index"></div>
         </form>
       </div>
-      <hr class="white">
-      <div class="media-footer">
-        <ul class="social-media-links flex-row">
-          <li>
-            <a href="https://www.github.com/MindPrepDev">
+      <hr class="white container-fluid">
+      <div class="media-footer d-flex lang d-flex align-items-start mb-5 w-50 mx-auto">
+        <ul class="social-media-links d-flex nav  ">
+          <li class="nav-item">
+            <a href="https://www.github.com/MindPrepDev" class="nav-link">
               <img src="./images/icons/github.png" alt="connect via github" class="git-img">
             </a>
           </li>
-          <li>
-            <a href="https://www.linkedin.com/in/oluwatoyinolaoye/">
+          <li class="nav-item">
+            <a href="https://www.linkedin.com/in/oluwatoyinolaoye/" class="nav-link">
               <img src="./images/icons/linked_in.png" alt="connect on linkedin" class="linkedin-img">
             </a>
           </li>
-          <li>
-            <a href="#">
+          <li class="nav-item">
+            <a href="#" class="nav-link">
               <img src="./images/icons/angel_list.png" alt="check angel list" class="angel-img">
             </a>
           </li>
-          <li>
-            <a href="https://www.twitter.com/olaoyeelijah">
+          <li class="nav-item">
+            <a href="https://www.twitter.com/olaoyeelijah" class="nav-link">
               <img src="./images/icons/twit.png" alt="connect via twitter" class="twitter-img">
             </a>
           </li>
-          <li>
-            <a href="https://medium.com/@mindprepopps">
+          <li class="nav-item">
+            <a href="https://medium.com/@mindprepopps" class="nav-link">
               <img src="./images/icons/meduim.png" alt="meetup on medium" class="medium-img">
             </a>
           </li>
         </ul>
-        <a href="mailto:mindprepopps@gmail.com" class="email-tab">mindprepopps@gmail.com</a>
+        <a class="nav-link" href="mailto:mindprepopps@gmail.com" class="email-tab">mindprepopps@gmail.com</a>
       </div>
-    </div>
     <div class="end-point alt-del"></div>
   </section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

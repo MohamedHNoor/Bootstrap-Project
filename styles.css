@@ -10,3 +10,13 @@ body {
 .lang p {
   color: #9391ff;
 }
+
+.contact-form h2 {
+  color: #9390ff;
+}
+
+.btn {
+  background: #9390ff;
+  padding: 0 12px 0 12px;
+  color: white;
+}
